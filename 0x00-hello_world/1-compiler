@@ -1,0 +1,2 @@
+#!/bin/bash
+FILENAME=$(basename "$CFILE" .c) OUTPUT_FILE="$FILENAME.o" gcc -c "$CFILE" -o "$OUTPUT_FILE"
