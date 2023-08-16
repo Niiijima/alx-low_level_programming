@@ -1,16 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
-  * main - check the code
-  * Return: Always 0 (Success)
-  */
-int main(void)
+ * _abs - computes the absolute value of an integer
+ * @n: the int to check
+ * Return: the absolute value of int
+ */
+int _abs(int n)
 {
-	int num = -5;
-
-	int abs_value = _abs(num);
-
-	printf("The absolute value of %d is %d\n", num, abs_value);
-
-	return 0;
+	if (n >= 0)
+	{
+		return (n);
+	}
+	return (-n);
 }

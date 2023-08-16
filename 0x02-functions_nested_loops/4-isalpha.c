@@ -1,21 +1,11 @@
-#include <main.h>
+#include "main.h"
 
 /**
-  * main - check the code
-  *
-  * Return: Always 0 (Success)
-  */
-int main(void)
+ * _isalpha - checks for alphabetic character
+ * @c: the character to be checked
+ * Return: 1 if c is a letter, 0 otherwise
+ */
+int _isalpha(int c)
 {
-	char ch = '1';
-
-	if (_isalph(ch))
-	{
-		printf("%c is an alphabet character\n", ch);
-	}
-	else
-	{
-		printf("%c is not alphabetic character\n", ch);
-	}
-	return (0);
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
