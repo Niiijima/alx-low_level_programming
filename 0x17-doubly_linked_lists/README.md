@@ -1,1 +1,1 @@
-doubly linked list
+linked lists
